@@ -8,6 +8,9 @@ style.unprefixed.css
 style.prefixed.css
 scripts.min.js
 
+## Sublime Text
+.sublime-grunt.cache
+
 ## Node.js
 lib-cov
 *.seed
