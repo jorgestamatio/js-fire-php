@@ -6,9 +6,22 @@ JavaScript task running, build processes, autominification and file concatenatio
 
 ## Get started with JS FIRE PHP:
 
-2. Clone the git repo — `git clone https://github.com/jorgestamatio/js-fire-php.git`
+1. Clone the git repo — `git clone https://github.com/jorgestamatio/js-fire-php.git`
 
-## Features
+2. In the root of your directory run
+
+## Development
+    
+    grunt
+
+## Production Build
+
+    grunt build
+
+
+
+
+### Features
 
 Here are some of the main features of FireShell:
 
@@ -19,8 +32,8 @@ Here are some of the main features of FireShell:
 * Includes jQuery CDN and relative fallback
 * Includes Modernizr and HTML5 Shiv
 * Google Universal Analytics snippet
+* Included Bootstrap, Font Awesome and Animate CSS.
 * Open source workflow with Grunt.js running on Node.js
-* Two `.command` (Mac OS X) and `.bat` (Windows) files for double-click command-line execution of FireShell
 * Automatic Grunt dependency installation, directory relocation and grunt tasks
 * Dynamically appended copyright for JS/CSS
 * Livereloading the browser and file injection upon changes
