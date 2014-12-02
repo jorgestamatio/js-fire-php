@@ -69,9 +69,14 @@ Here are some of the main features of FireShell:
 │       └── style.scss
 ├── package.json
 ├── README.md
+├── .bowerrc
 ├── .editorconfig
 ├── .gitignore
 ├── .jshintrc
+├── bower.json
+├── .travis.yml
+├── README.md
+└── Gruntfile.js
 ````
 
 ## License
