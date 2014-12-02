@@ -49,6 +49,7 @@ Here are some of the main features of FireShell:
 ## Scaffolding
 
 ````
+JS FIRE PHP
 ├── app
 │   ├── apple-touch-icon-precomposed.png
 │   ├── assets
