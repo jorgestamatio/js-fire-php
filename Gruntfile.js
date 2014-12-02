@@ -232,26 +232,7 @@ module.exports = function (grunt) {
              options: {
                 hostname: 'localhost.dev',
                 port: 9000,
-                middleware: function(connect, options) {
-                  // Same as in grunt-contrib-connect
-                    var middlewares = [];
-                    var directory = options.directory ||
-                      options.base[options.base.length - 1];
-                    if (!Array.isArray(options.base)) {
-                      options.base = [options.base];
-                    }
-
-                    // Here comes the PHP middleware
-                    middlewares.push(phpMiddleware(directory));
-
-                      // Same as in grunt-contrib-connect
-                    options.base.forEach(function(base) {
-                      middlewares.push(connect.static(base));
-                    });
-
-                    middlewares.push(connect.directory(directory));
-                    return middlewares;              
-                },
+                livereload: LIVERELOAD_PORT,
                 open: true,
                 base: 'app',
              }
