@@ -7,8 +7,8 @@ JavaScript task running, build processes, autominification and file concatenatio
 ## Get started with JS FIRE PHP:
 
 1. Clone the git repo — `git clone https://github.com/jorgestamatio/js-fire-php.git`
-
-2. In the root of your directory run
+2. Run `bower install`
+3. In the root of your directory run
 
 ## Development
     
